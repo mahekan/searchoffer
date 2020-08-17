@@ -14,7 +14,7 @@ class SearchOffer:
         return soup
 
     def offer(self):
-        URL = f"http://suggestqueries.google.com/complete/search?output=toolbar&hl={slef.language}&q={self.keyword}"   
+        URL = f"http://suggestqueries.google.com/complete/search?output=toolbar&hl={self.language}&q={self.keyword}"   
         soup = self.soup(URL).find_all('suggestion')
         data = [data['data'] for data in soup]
         return data

@@ -7,7 +7,7 @@ requirements = ["requests>=2","beautifulsoup4"]
 
 setup(
     name="searchoffer",
-    version="0.0.2",
+    version="0.0.3",
     author="ayaz abdi",
     author_email="mayazabdi@gmail.com",
     description="Python library suggestqueries google api",

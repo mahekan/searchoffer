@@ -7,7 +7,7 @@ class SearchOffer:
         self.keyword = keyword
         self.headers = {'User-agent':'Mozilla/5.0'} 
         self.offer_keyword = []
-        slef.language = language
+        self.language = language
     def soup(self,url):
         req = requests.get(url, headers = self.headers)
         soup = BeautifulSoup(req.content,'html.parser')

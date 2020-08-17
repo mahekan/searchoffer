@@ -13,7 +13,7 @@ pip install searchoffer
 ## Usage
 
 ```python
-import SearchOffer
+from searchoffer import SearchOffer
 
 keyword = "ماهکان"
 language = "fa"
